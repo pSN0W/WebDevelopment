@@ -1,0 +1,75 @@
+.heading {
+    color: rgb(31, 2, 2);
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(65, 201, 65);
+    border-bottom: 5px solid teal;
+    font-family: 'Reggae One', cursive;
+}
+
+.left,
+.right {
+    background-color: rgb(65, 201, 65);
+}
+
+form {
+    color: rgb(231, 48, 48);
+    font-size: 1.8rem;
+}
+
+select {
+    color: rgb(32, 28, 224);
+    font-size: 1.5rem;
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+input[type=submit],
+input[type=reset] {
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 2px 25px 2px 25px;
+}
+
+span {
+    color: rgb(32, 28, 224);
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form {
+    display: grid;
+    grid-gap: 20px;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left_children {
+    text-align: left;
+    padding-left: 8rem;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+.cars {
+    text-align: center;
+    grid-column: span 2;
+}
+
+select {
+    padding: 1px 25px 1px 25px;
+}
+
+.mid_children {
+    text-align: center;
+}
