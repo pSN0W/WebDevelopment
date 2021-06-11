@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: tomato;
+}
+
+button {
+    width: 120px;
+    font-size: 1.5rem;
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+ul {
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+li {
+    font-size: 1.8rem;
+    color: rgb(231, 14, 231);
+}
