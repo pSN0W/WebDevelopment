@@ -83,11 +83,11 @@ function completed() {
         done['lm'] = 1;
         done['lr'] = 1;
         if (check() === 1) {
-            h3.innerHTML = players1 + " wins the game.. Jaan gets Pratyaksh. World gets happy";
+            h3.innerHTML = players1 + " wins the game..";
         } else if (check() === 2) {
-            h3.innerHTML = players2 + " wins the game.. Jaan comes is Pratyaksh arm and it starts to rain";
+            h3.innerHTML = players2 + " wins the game..";
         } else if (cnt === 9) {
-            h3.innerHTML = "The match is tied.. Pratyaksh wins Jaan and they go home to eat tamato with sugar";
+            h3.innerHTML = "The match is tied..";
         }
     }
 }
